@@ -1,0 +1,12 @@
+// nested
+$no-marg: 0px;
+$no-pad: 0px;
+$marg: 10px;
+
+body {
+    margin: $no-marg;
+    padding: $no-pad;
+}
+
+body, p { 
+    margin: $marg; }

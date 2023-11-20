@@ -1,0 +1,11 @@
+// more nesting
+$t-color: #3D3D3D;
+$text-color: #FF0000;
+
+body {
+    color: $t-color;
+}
+
+body .red {
+    color: $text-color;
+}
