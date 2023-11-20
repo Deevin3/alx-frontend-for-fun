@@ -2,11 +2,11 @@
 
 $text-color: #3D3D3D;
 $background-color: #6D6D6D;
-body { 
+body, p { 
     color: $text-color;
-     background: $background-color;
 }
 
- p { color: $text-color}
 
- h2 { background: $background-color;}
+ body, h2 { 
+    background-color: $background-color;
+}
