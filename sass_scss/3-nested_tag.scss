@@ -1,4 +1,4 @@
-// nested
+/*nested */
 $no-marg: 0px;
 $no-pad: 0px;
 $marg: 10px;
@@ -9,4 +9,5 @@ body {
 }
 
 body, p { 
-    margin: $marg; }
+    margin: $marg;
+}
